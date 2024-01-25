@@ -29,17 +29,6 @@ var typed = new Typed('.typed', {
 let swithMode = document.getElementById("swithMode")
 
 
-// switch theme site
-swithMode.onclick = function() {
-    let theme = document.getElementById("theme")
-
-     if(theme.getAttribute("href") == "css/light-style.css") {
-        theme.href = "css/dark-style.css"
-     } else {
-        theme.href = "css/light-style.css"
-     }
-}
-
 // SLIDER
 
 document.addEventListener("DOMContentLoaded", function () {

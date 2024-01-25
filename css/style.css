@@ -554,4 +554,15 @@ input:checked+label {
     .slide{
         font-size: 14px;
     }
+
+    .intro__suptitle,
+    .intro__undersuptitle {
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        color: #ffffff;
+        letter-spacing: .3vh;
+        text-align: center; /* Center text within .intro__inner */
+        padding: 5px 0 0;
+    }
 }
